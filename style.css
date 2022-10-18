@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+    background-image: linear-gradient(to top, rgba(55, 55, 65, 60%), rgba(10, 10, 10, 100%));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+canvas{
+    display: block;
+}
+
+
+.a{
+    padding: .8rem 2.6rem;
+    border-radius: 0 0 1.6rem 0;
+    position: fixed;
+    background: rgba(210, 210, 210, 20%);
+}
+
+.a h1{
+    font-size: 3rem;    
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    color: #eefafa;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+/* @media screen and (max-width: 2560px) {
+    
+    .a h1{
+        font-size: 3.2rem;
+    }
+
+    .a{
+        padding: .4rem 2.6rem;
+        border-radius: 0 0 1.6rem 0;
+    }
+
+} */
+
+@media screen and (max-width: 1440px) {
+    
+    .a h1{
+        font-size: 2.4rem;
+    }
+
+    .a{
+        padding: .4rem 2.6rem;
+        border-radius: 0 0 1.6rem 0;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .a h1{
+        font-size: 2rem;
+    }
+
+    .a{
+        padding: .4rem 2.6rem;
+        border-radius: 0 0 1.6rem 0;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .a h1{
+        font-size: 1.9rem;
+    }
+
+    .a{
+        padding: .4rem 1.6rem;
+        border-radius: 0 0 1.6rem 0;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    
+    .a h1{
+        font-size: 1.4rem;
+    }
+
+    .a{
+        padding: .4rem 1.6rem;
+        border-radius: 0 0 1.6rem 0;
+    }
+
+}
